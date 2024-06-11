@@ -1,0 +1,5 @@
+nota1 = int(input("Nota do primeiro trabalho: "))
+nota2 = int(input("Nota do segundo trabalho: "))
+nota3 = int(input("Nota do terceiro trabalho: "))
+media = ((nota1 + nota2 + nota3) / 3)
+print("A média dos três trabalhos foi: {:.3f}".format(media))
